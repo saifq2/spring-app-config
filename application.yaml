@@ -7,12 +7,12 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
       
-#okta:
-#  oauth2:
-#   issuer: https://dev-95079793.okta.com/oauth2/default
-#   audience: api://default
-#   client-id: 0oa8vfrd4gsG9xbt25d7
-#   client-secret: u7gnyOcpwSjKz0lWD3l7EdVaFD9f36s3LOujJ_7i
+okta:
+  oauth2:
+    issuer: https://dev-71716389.okta.com/oauth2/default
+    audience: api://default
+#   client-id: 0oa8vx8vut76NPyT95d7
+#   client-secret: aZ0h836vkahyUDcqHCTp_FO3uEYpncOTeX20xRlk
 #   scopes: openid, profile, email
 spring:
   zipkin:
